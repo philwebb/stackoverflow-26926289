@@ -1,0 +1,11 @@
+= StackOverflow JSON Sample
+
+Test for http://stackoverflow.com/questions/26926289/spring-boot-joda-datetime-serialisation
+
+[indent=0,subs="attributes"]
+----
+	$ mvn clean package
+	$ java -jar target/stackoverflow-26926289-0.0.1-SNAPSHOT.jar
+	$ curl localhost:8080/info                                                                                                                                                                                                                 ✱
+	{"dateTime":"2014-11-19"}
+----
